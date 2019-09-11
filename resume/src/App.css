@@ -47,6 +47,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html {
+  font-size: 62.5%;
+}
 
-/* END OF CSS RESET */
 
+/***** END OF CSS RESET, START OF GENERAL STYLES *****/
+
+.App {
+  text-align: center;
+}
+
+span {
+  color: rgb(68, 0, 0)
+}
