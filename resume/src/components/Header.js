@@ -2,11 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Heading = styled.div`
-  margin: 1rem;
+  margin: 4rem;
 `;
 
 const Name = styled.h1`
   font-size: 5rem;
+  margin: 1rem;
   color: rgb(68, 0, 0);
 `;
 

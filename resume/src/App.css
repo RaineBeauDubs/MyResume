@@ -52,12 +52,9 @@ html {
 }
 
 
-/***** END OF CSS RESET, START OF GENERAL STYLES *****/
+/* END OF CSS RESET */
 
-.App {
-  text-align: center;
-}
 
-span {
+/* span {
   color: rgb(68, 0, 0)
-}
+} */
