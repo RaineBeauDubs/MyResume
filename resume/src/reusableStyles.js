@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const ResSection = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
   font-size: 1.7rem
 
@@ -10,15 +11,18 @@ export const ResSection = styled.div`
 `;
 
 export const ResSectionLeft = styled.div`
-  width: 15%;
+  width: 17%;
   font-weight: bold;
-  text-align: left
+  font-size: 2.3rem;
+  text-align: right;
+  margin: 1rem
+  color: rgb(68, 0, 0);
 
   // border: 1px solid green;
 `;
 
 export const ResSectionRight = styled.div`
-  width: 80%;
+  width: 75%;
 
   // border: 1px solid purple;
 `;

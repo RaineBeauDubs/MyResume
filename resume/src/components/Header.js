@@ -11,15 +11,18 @@ const Name = styled.h1`
   color: rgb(68, 0, 0);
 `;
 
-const Email = styled.h2`
-  font-size: 2.5rem;
+const Contact = styled.h2`
+  font-size: 2rem;
 `;
 
 const Header = () => {
   return (
     <Heading>
       <Name>Raine Wallace</Name>
-      <Email>raine.wallace.dev@gmail.com</Email>
+      <Contact>raine.wallace.dev@gmail.com</Contact>
+      <Contact>RaineBeauDubs (GitHub)</Contact>
+      <Contact>@RaineWallace1 (Twitter)</Contact>
+      <Contact>raine-wallace (LinkedIn)</Contact>
     </Heading>
   )
 }
