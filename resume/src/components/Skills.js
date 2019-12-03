@@ -13,9 +13,13 @@ const Skills = () => {
       <ResSectionLeft>Skills:</ResSectionLeft>
       <ResSectionRight>
         <List>
-          <ListItems>Solid Leadership Skills</ListItems>
-          <ListItems>Exceptional Telephone/E-Mail Etiquette</ListItems>
-          <ListItems>Exceptional Customer Service</ListItems>
+          <ListItems>Solid leadership skills</ListItems>
+          <ListItems>Exceptional people/customer-service skills</ListItems>
+          <ListItems>Strong communication skills</ListItems>
+
+          <ListItems>Committed and reliable team player</ListItems>
+          <ListItems>Able to take direction, as well as contribute</ListItems>
+          <ListItems>Able to learn quickly and efficiently</ListItems>
         </List>
       </ResSectionRight>
     </ResSection>

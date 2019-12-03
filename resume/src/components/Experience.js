@@ -3,6 +3,8 @@ import {
   ResSection,
   ResSectionLeft,
   ResSectionRight,
+  List,
+  ListItems
 
 } from '../reusableStyles';
 
@@ -11,7 +13,10 @@ const Experience = () => {
     <ResSection>
       <ResSectionLeft>Experience:</ResSectionLeft>
       <ResSectionRight>
-        <p>hello!</p>
+        <List>
+          <ListItems>Lambda: TL 02/2019 - 05/2019</ListItems>
+          <ListItems>Lambda: TL 10/2019 - Current</ListItems>
+        </List>
       </ResSectionRight>
     </ResSection>
   )
