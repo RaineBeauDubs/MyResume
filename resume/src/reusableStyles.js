@@ -13,10 +13,9 @@ export const ResSection = styled.div`
 export const ResSectionLeft = styled.div`
   width: 17%;
   font-weight: bold;
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   text-align: right;
-  margin: 1rem
-  color: rgb(68, 0, 0);
+  margin: 2.3rem
 
   // border: 1px solid green;
 `;
@@ -31,6 +30,7 @@ export const List = styled.ul`
   list-style: square inside none;
   display: flex;
   flex-wrap: wrap;
+  margin: 2rem;
 `;
 
 export const ListItems = styled.li`
