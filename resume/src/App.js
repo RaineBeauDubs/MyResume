@@ -10,8 +10,8 @@ const Container = styled.div`
   max-width: 1000px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin: 0 auto;
+  align-items: flex-start;
+  margin: 4rem auto;
 `;
 
 function App() {

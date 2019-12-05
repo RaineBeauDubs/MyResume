@@ -6,6 +6,7 @@ export const ResSection = styled.div`
   justify-content: space-between;
   // align-items: center;
   font-size: 1.7rem
+  margin: 2rem;
 
   // border: 1px solid red;
 `;

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Heading = styled.div`
-  margin: 4rem;
+  margin: 2rem;
 `;
 
 const Name = styled.h1`
