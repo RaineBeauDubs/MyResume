@@ -2,27 +2,24 @@ import styled from 'styled-components';
 
 export const ResSection = styled.div`
   display: flex;
+  flex-direction: column;
   width: 100%;
-  justify-content: space-between;
-  // align-items: center;
+  align-items: left;
   font-size: 1.7rem
   margin: 2rem;
 
   // border: 1px solid red;
 `;
 
-export const ResSectionLeft = styled.div`
-  width: 17%;
+export const ResSectionTop = styled.div`
+  text-align: left;
   font-weight: bold;
   font-size: 2.5rem;
-  text-align: right;
   margin: 2.3rem
-
   // border: 1px solid green;
 `;
 
-export const ResSectionRight = styled.div`
-  width: 75%;
+export const ResSectionBottom = styled.div`
 
   // border: 1px solid purple;
 `;

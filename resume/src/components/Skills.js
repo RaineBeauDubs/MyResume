@@ -1,8 +1,8 @@
 import React from 'react';
 import {
   ResSection,
-  ResSectionLeft,
-  ResSectionRight,
+  ResSectionTop,
+  ResSectionBottom,
   List,
   ListItems
 } from '../reusableStyles';
@@ -10,8 +10,8 @@ import {
 const Skills = () => {
   return (
     <ResSection>
-      <ResSectionLeft>Skills:</ResSectionLeft>
-      <ResSectionRight>
+      <ResSectionTop>Skills:</ResSectionTop>
+      <ResSectionBottom>
         <List>
           <ListItems>Solid leadership skills</ListItems>
           <ListItems>Exceptional people/customer-service skills</ListItems>
@@ -21,7 +21,7 @@ const Skills = () => {
           <ListItems>Able to take direction, as well as contribute</ListItems>
           <ListItems>Able to learn quickly and efficiently</ListItems>
         </List>
-      </ResSectionRight>
+      </ResSectionBottom>
     </ResSection>
   )
 }

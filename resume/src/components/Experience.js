@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import {
   ResSection,
-  ResSectionLeft,
-  ResSectionRight,
+  ResSectionTop,
+  ResSectionBottom,
   List,
   ListItems
 } from '../reusableStyles';
@@ -30,14 +30,15 @@ const ExpList = styled.ul`
   list-style: square inside none;
   display: flex;
   flex-wrap: wrap;
+  margin: 1rem 2rem;
 `;
 
 
 const Experience = () => {
   return (
     <ResSection>
-      <ResSectionLeft>Experience:</ResSectionLeft>
-      <ResSectionRight>
+      <ResSectionTop>Experience:</ResSectionTop>
+      <ResSectionBottom>
         <ExpSec>
           <ExpTitle>Lambda School</ExpTitle>
           <ExpInfo>Full-Stack Web Team Lead</ExpInfo>
@@ -61,7 +62,7 @@ const Experience = () => {
             <ListItems>Led/hosted daily stand-up meetings with students</ListItems>
           </ExpList>
         </ExpSec>
-      </ResSectionRight>
+      </ResSectionBottom>
     </ResSection> 
   )
 }
