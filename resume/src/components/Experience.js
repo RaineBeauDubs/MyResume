@@ -39,16 +39,13 @@ const Experience = () => {
     <ResSection>
       <ResSectionTop>Experience:</ResSectionTop>
       <ResSectionBottom>
-        <ExpSec>
+      <ExpSec>
           <ExpTitle>Lambda School</ExpTitle>
-          <ExpInfo>Full-Stack Web Team Lead</ExpInfo>
-          <ExpDates>02/2019 - 05/2019</ExpDates>
+          <ExpInfo>Full-Stack Web Student</ExpInfo>
+          <ExpDates>10/2018 - Current</ExpDates>
           <ExpList>
-            <ListItems>Graded all work from and supported multiple groups of students through a three-month Full-Stack Web Development curriculum that included HTML/CSS, JavaScript, React, SQL, PostgreSQL, Express, and Node</ListItems>
-            <ListItems>Acted as People Manager for the performance management, professional growth, and development of each team member</ListItems>
-            <ListItems>Acted as Project Lead for multiple Build-Week projects</ListItems>
-            <ListItems>Led/hosted Q&A and After Hours sessions for students</ListItems>
-            <ListItems>Led/hosted daily stand-up meetings with students</ListItems>
+            <ListItems>Lambda School is an intense full-time coding boot-camp with a full-stack web development curriculum that includes HTML/CSS, JavaScript, React, SQL, PostgreSQL, Express, Node, Python, Django, and more</ListItems>
+            <ListItems>Spent an eight-week unit with a group of three to create the front-end and the back-end of a project that met the demands of a real external stakeholder</ListItems>
           </ExpList>
         </ExpSec>
         <ExpSec>
@@ -62,8 +59,20 @@ const Experience = () => {
             <ListItems>Led/hosted daily stand-up meetings with students</ListItems>
           </ExpList>
         </ExpSec>
+        <ExpSec>
+          <ExpTitle>Lambda School</ExpTitle>
+          <ExpInfo>Full-Stack Web Team Lead</ExpInfo>
+          <ExpDates>02/2019 - 05/2019</ExpDates>
+          <ExpList>
+            <ListItems>Graded all work from and supported multiple groups of students through a three-month Full-Stack Web Development curriculum that included HTML/CSS, JavaScript, React, SQL, PostgreSQL, Express, and Node</ListItems>
+            <ListItems>Acted as People Manager for the performance management, professional growth, and development of each team member</ListItems>
+            <ListItems>Acted as Project Lead for multiple Build-Week projects</ListItems>
+            <ListItems>Led/hosted Q&A and After Hours sessions for students</ListItems>
+            <ListItems>Led/hosted daily stand-up meetings with students</ListItems>
+          </ExpList>
+        </ExpSec>
       </ResSectionBottom>
-    </ResSection> 
+    </ResSection>
   )
 }
 
