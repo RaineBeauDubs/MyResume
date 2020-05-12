@@ -7,16 +7,26 @@ import {
   faLinkedin, 
   faGithub
 } from '@fortawesome/free-brands-svg-icons'
-import { faAt } from '@fortawesome/free-solid-svg-icons';
+import {
+  faAt,
+  faMobileAlt
+} from '@fortawesome/free-solid-svg-icons';
 
 const Heading = styled.div`
-  margin: 2rem;
+  // margin: 2rem;
 `;
 
 const Name = styled.h1`
   font-size: 5rem;
-  margin: 2rem 1rem;
+  margin: 1rem;
   color: rgb(68, 0, 0);
+`;
+
+const Title = styled.h2`
+  font-size: 3rem;
+  margin: 1rem;
+  margin-bottom: 3rem;
+  color: grey
 `;
 
 const ContSec = styled.div`
@@ -32,6 +42,7 @@ const Header = () => {
   return (
     <Heading>
       <Name>Raine Wallace</Name>
+      <Title>Web Developer</Title>
       <ContSec>
         <FontAwesomeIcon className="icon" icon={faAt} />
         <Contact>RaineBeauDubs@gmail.com</Contact>
@@ -48,7 +59,10 @@ const Header = () => {
         <FontAwesomeIcon className="icon" icon={faLinkedin} />
         <Contact>Raine-Wallace</Contact>
       </ContSec>
-
+      <ContSec>
+        <FontAwesomeIcon className="icon" icon={faMobileAlt} />
+        <Contact>(502) 758-5650</Contact>
+      </ContSec>
     </Heading>
   )
 }
