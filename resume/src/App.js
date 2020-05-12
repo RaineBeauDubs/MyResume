@@ -11,7 +11,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin: 4rem auto;
+  margin: 2rem auto;
 `;
 
 function App() {

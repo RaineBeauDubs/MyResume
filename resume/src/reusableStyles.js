@@ -6,7 +6,7 @@ export const ResSection = styled.div`
   width: 100%;
   align-items: left;
   font-size: 1.7rem
-  margin: 2rem;
+  margin: 3rem 2rem 1rem;
 
   // border: 1px solid red;
 `;
@@ -15,7 +15,8 @@ export const ResSectionTop = styled.div`
   text-align: left;
   font-weight: bold;
   font-size: 2.5rem;
-  margin: 2.3rem
+  margin: 0rem
+  color: rgb(68, 0, 0);
   // border: 1px solid green;
 `;
 
@@ -28,11 +29,11 @@ export const List = styled.ul`
   list-style: square inside none;
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem;
+  margin: 0.5rem;
 `;
 
 export const ListItems = styled.li`
-  margin: 0.5rem;
+  margin: 0.1rem;
   text-align: left;
   justify-content: space-evenly
   min-width: 35rem;
