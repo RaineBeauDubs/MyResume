@@ -13,7 +13,8 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const Heading = styled.div`
-  // margin: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 4rem
 `;
 
 const Name = styled.h1`

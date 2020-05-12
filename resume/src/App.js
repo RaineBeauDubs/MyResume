@@ -18,9 +18,11 @@ const Container = styled.div`
 function App() {
   return (
     <Container className="App">
-      <Header />
       <div>
+        <Header />
         <Skills />
+      </div>
+      <div>
         <Experience />
       </div>
     </Container>
