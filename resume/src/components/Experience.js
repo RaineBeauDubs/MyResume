@@ -30,7 +30,7 @@ const ExpList = styled.ul`
   list-style: square inside none;
   display: flex;
   flex-wrap: wrap;
-  margin: 1rem 2rem;
+  margin: .4rem 2rem;
 `;
 
 
@@ -39,15 +39,7 @@ const Experience = () => {
     <ResSection>
       <ResSectionTop>Experience:</ResSectionTop>
       <ResSectionBottom>
-      <ExpSec>
-          <ExpTitle>Lambda School</ExpTitle>
-          <ExpInfo>Full-Stack Web Student</ExpInfo>
-          <ExpDates>10/2018 - Current</ExpDates>
-          <ExpList>
-            <ListItems>Lambda School is an intense full-time coding boot-camp with a full-stack web development curriculum that includes HTML/CSS, JavaScript, React, SQL, PostgreSQL, Express, Node, Python, Django, and more</ListItems>
-            <ListItems>Spent an eight-week unit with a group of three to create the front-end and the back-end of a project that met the demands of a real external stakeholder</ListItems>
-          </ExpList>
-        </ExpSec>
+     
         <ExpSec>
           <ExpTitle>Lambda School</ExpTitle>
           <ExpInfo>Computer Science Section Lead</ExpInfo>
@@ -60,7 +52,6 @@ const Experience = () => {
           </ExpList>
         </ExpSec>
         <ExpSec>
-          <ExpTitle>Lambda School</ExpTitle>
           <ExpInfo>Computer Science Team Lead</ExpInfo>
           <ExpDates>10/2019 - 02/2020</ExpDates>
           <ExpList>
@@ -71,7 +62,6 @@ const Experience = () => {
           </ExpList>
         </ExpSec>
         <ExpSec>
-          <ExpTitle>Lambda School</ExpTitle>
           <ExpInfo>Full-Stack Web Team Lead</ExpInfo>
           <ExpDates>02/2019 - 05/2019</ExpDates>
           <ExpList>

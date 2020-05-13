@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
+import Education from './components/Education';
 
 import styled from 'styled-components';
 import './App.css';
@@ -24,6 +25,7 @@ function App() {
       </div>
       <div>
         <Experience />
+        <Education />
       </div>
     </Container>
   );

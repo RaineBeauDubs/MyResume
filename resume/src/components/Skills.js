@@ -44,7 +44,7 @@ const Skills = () => {
       </SkillSec>
       <SkillSec>
         <FontAwesomeIcon className="icon" icon={faJs} />
-        <Skill>JavaScript 6</Skill>
+        <Skill>JavaScript ES6</Skill>
       </SkillSec>
       <SkillSec>
         <FontAwesomeIcon className="icon" icon={faReact} />

@@ -6,7 +6,7 @@ export const ResSection = styled.div`
   width: 100%;
   align-items: left;
   font-size: 1.7rem
-  margin: 3rem 2rem 1rem;
+  margin: 2rem 1rem 1rem;
 
   // border: 1px solid red;
 `;
@@ -15,7 +15,6 @@ export const ResSectionTop = styled.div`
   text-align: left;
   font-weight: bold;
   font-size: 2.5rem;
-  margin: 0rem
   color: rgb(68, 0, 0);
   // border: 1px solid green;
 `;
