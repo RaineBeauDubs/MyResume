@@ -44,7 +44,7 @@ const Education = () => {
           <EduDates>10/2018 - Current</EduDates>
           <EduList>
             <ListItems>Lambda School is an intense full-time coding boot-camp with a full-stack web development curriculum that includes HTML/CSS, JavaScript, React, SQL, PostgreSQL, Express, Node, Python, Django, and more</ListItems>
-            <ListItems>Spent an eight-week unit with a group of three to create the front-end and the back-end of a project that met the demands of a real external stakeholder</ListItems>
+            <ListItems>Spent an eight-week unit with a group of 3 to create the front-end and the back-end of a project that met the demands of a real external stakeholder</ListItems>
           </EduList>
         </EduSec>
       </ResSectionBottom>

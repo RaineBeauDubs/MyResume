@@ -1,2 +1,4 @@
 # MyResume
-This is my resume!
+Resume of Raine Wallace
+
+Created with React | HTML | CSS
