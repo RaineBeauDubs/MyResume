@@ -39,9 +39,9 @@ const Projects = () => {
           <ProTitle>Let’s Get Tacos! — time4tacos.com</ProTitle>
           <ProInfo>Firebase | HTML/CSS | React | SQL | PostgreSQL | Node.js | Espress</ProInfo>
           <ProList>
-            <ListItems>Collaborated remotely with a team of 3 Web Developers over an 8-week sprint to build a fully functional web application that met the demands of a stakeholder</ListItems>
+            <ListItems>Collaborated remotely with a team of 3 web developers over an 8-week sprint to build a fully functional web application that met the demands of a stakeholder</ListItems>
             <ListItems>Contributed heavily towards front-end, back-end, and design aspects of project</ListItems>
-            <ListItems>Worked tirelessly with another developer to implement Google Firebase into both the front- and back-end for seamless authentication</ListItems>
+            <ListItems>Implemented Google Firebase into both the front- and back-end for seamless authentication, along with another developer</ListItems>
             <ListItems>Solely responsible for design on all logging/viewing/detail pages</ListItems>
           </ProList>
         </ProSec>
