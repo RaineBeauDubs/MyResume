@@ -4,7 +4,6 @@ import {
   ResSection,
   ResSectionTop,
   ResSectionBottom,
-  List,
   ListItems
 } from '../reusableStyles';
 
