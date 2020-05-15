@@ -17,6 +17,12 @@ const ExpTitle = styled.h2`
   color: grey;
 `;
 
+const ExpAlign = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem
+`;
+
 const ExpInfo = styled.h3`
   font-weight: bold;
   color: grey;
@@ -38,11 +44,13 @@ const Experience = () => {
     <ResSection>
       <ResSectionTop>Experience:</ResSectionTop>
       <ResSectionBottom>
-     
+
         <ExpSec>
           <ExpTitle>Lambda School</ExpTitle>
-          <ExpInfo>Computer Science Section Lead</ExpInfo>
-          <ExpDates>02/2020 - 05/2020</ExpDates>
+          <ExpAlign>
+            <ExpInfo>Computer Science Section Lead</ExpInfo>
+            <ExpDates>02/2020 - 05/2020</ExpDates>
+          </ExpAlign>
           <ExpList>
             <ListItems>Managed 15 Team Leads to ensure that all students received daily code reviews and sprint reviews</ListItems>
             <ListItems>Communicated with Team Leads and instructors, hosted daily stand-up meetings</ListItems>
@@ -51,8 +59,10 @@ const Experience = () => {
           </ExpList>
         </ExpSec>
         <ExpSec>
-          <ExpInfo>Computer Science Team Lead</ExpInfo>
-          <ExpDates>10/2019 - 02/2020</ExpDates>
+          <ExpAlign>
+            <ExpInfo>Computer Science Team Lead</ExpInfo>
+            <ExpDates>10/2019 - 02/2020</ExpDates>
+          </ExpAlign>
           <ExpList>
             <ListItems>Graded all work from and supported a group of 8-10 students through a 2-month Computer Science curriculum that included blockchain, graphing, Python, Django, and much more</ListItems>
             <ListItems>Acted as People Manager for the performance management, professional growth, and development of each team member</ListItems>
@@ -61,8 +71,10 @@ const Experience = () => {
           </ExpList>
         </ExpSec>
         <ExpSec>
-          <ExpInfo>Full-Stack Web Team Lead</ExpInfo>
-          <ExpDates>02/2019 - 05/2019</ExpDates>
+          <ExpAlign>
+            <ExpInfo>Full-Stack Web Team Lead</ExpInfo>
+            <ExpDates>02/2019 - 05/2019</ExpDates>
+          </ExpAlign>
           <ExpList>
             <ListItems>Graded all work from and supported multiple groups of 7-10 students through a 3-month Full-Stack Web Development curriculum that included HTML/CSS, JavaScript, React, SQL, PostgreSQL, Express, and Node</ListItems>
             <ListItems>Acted as People Manager for the performance management, professional growth, and development of each team member</ListItems>
@@ -72,9 +84,11 @@ const Experience = () => {
           </ExpList>
         </ExpSec>
         <ExpSec>
-        <ExpTitle>Rainy Day Resale</ExpTitle>
-          <ExpInfo>Manager | Co-Owner</ExpInfo>
-          <ExpDates>01/2014 - 10/2018</ExpDates>
+          <ExpTitle>Rainy Day Resale</ExpTitle>
+          <ExpAlign>
+            <ExpInfo>Manager | Co-Owner</ExpInfo>
+            <ExpDates>01/2014 - 10/2018</ExpDates>
+          </ExpAlign>
           <ExpList>
             <ListItems>Managed, operated, and co-owned a consignment shop with 6 employees and around 600 active consignors</ListItems>
             <ListItems>Priced, tagged, and arranged hundreds of articles of clothing and accessories a week</ListItems>

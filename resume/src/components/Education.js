@@ -17,6 +17,12 @@ const EduTitle = styled.h2`
   color: grey;
 `;
 
+const EduAlign = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem
+`;
+
 const EduInfo = styled.h3`
   font-weight: bold;
   color: grey;
@@ -38,10 +44,12 @@ const Education = () => {
     <ResSection>
       <ResSectionTop>Education:</ResSectionTop>
       <ResSectionBottom>
-      <EduSec>
+        <EduSec>
           <EduTitle>Lambda School</EduTitle>
-          <EduInfo>Full-Stack Web Student</EduInfo>
-          <EduDates>10/2018 - Current</EduDates>
+          <EduAlign>
+            <EduInfo>Full-Stack Web Student</EduInfo>
+            <EduDates>10/2018 - Current</EduDates>
+          </EduAlign>
           <EduList>
             <ListItems>Lambda School is an intense full-time coding boot-camp with a full-stack web development curriculum that includes HTML/CSS, JavaScript, React, SQL, PostgreSQL, Express, Node, Python, Django, and more</ListItems>
             <ListItems>Spent an eight-week unit with a group of 3 to create the front-end and the back-end of a project that met the demands of a real external stakeholder</ListItems>
