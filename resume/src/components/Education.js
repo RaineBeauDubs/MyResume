@@ -1,42 +1,16 @@
 import React from 'react';
-import styled from 'styled-components';
 import {
   ResSection,
   ResSectionTop,
   ResSectionBottom,
+  Sec,
+  Title,
+  InfDtAlign,
+  Info,
+  Dates,
+  List,
   ListItems
 } from '../reusableStyles';
-
-const EduSec = styled.div`
-  margin: 1.5rem;
-`;
-
-const EduTitle = styled.h2`
-  font-weight: bold;
-  font-size: 2rem;
-  color: grey;
-`;
-
-const EduAlign = styled.div`
-  display: flex;
-  justify-content: space-between;
-  padding-right: 1rem
-`;
-
-const EduInfo = styled.h3`
-  font-weight: bold;
-  color: grey;
-`;
-
-const EduDates = styled.h2`
-  color: grey;
-`;
-const EduList = styled.ul`
-  list-style: square inside none;
-  display: flex;
-  flex-wrap: wrap;
-  margin: .4rem 2rem;
-`;
 
 
 const Education = () => {
@@ -44,17 +18,17 @@ const Education = () => {
     <ResSection>
       <ResSectionTop>Education:</ResSectionTop>
       <ResSectionBottom>
-        <EduSec>
-          <EduTitle>Lambda School</EduTitle>
-          <EduAlign>
-            <EduInfo>Full-Stack Web Student</EduInfo>
-            <EduDates>10/2018 - Current</EduDates>
-          </EduAlign>
-          <EduList>
+        <Sec>
+          <Title>Lambda School</Title>
+          <InfDtAlign>
+          <Info>Full-Stack Web Student</Info>
+            <Dates>10/2018 - Current</Dates>
+          </InfDtAlign>
+          <List>
             <ListItems>Lambda School is an intense full-time coding boot-camp with a full-stack web development curriculum that includes HTML/CSS, JavaScript, React, SQL, PostgreSQL, Express, Node, Python, Django, and more</ListItems>
             <ListItems>Spent an eight-week unit with a group of 3 to create the front-end and the back-end of a project that met the demands of a real external stakeholder</ListItems>
-          </EduList>
-        </EduSec>
+          </List>
+        </Sec>
       </ResSectionBottom>
     </ResSection>
   )
