@@ -7,8 +7,6 @@ export const ResSection = styled.div`
   align-items: left;
   font-size: 1.7rem
   margin: 1rem;
-
-  // border: 1px solid red;
 `;
 
 export const ResSectionTop = styled.div`
@@ -16,19 +14,42 @@ export const ResSectionTop = styled.div`
   font-weight: bold;
   font-size: 2.5rem;
   color: rgb(68, 0, 0);
-  // border: 1px solid green;
 `;
 
 export const ResSectionBottom = styled.div`
-
   // border: 1px solid purple;
+`;
+
+export const Sec = styled.div`
+  margin: 1.5rem;
+`;
+
+export const Title = styled.h2`
+  font-weight: bold;
+  font-size: 2rem;
+  color: grey;
+`;
+
+export const InfDtAlign = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem
+`;
+
+export const Info = styled.h3`
+  font-weight: bold;
+  color: grey;
+`;
+
+export const Dates = styled.h2`
+  color: grey;
 `;
 
 export const List = styled.ul`
   list-style: square inside none;
   display: flex;
   flex-wrap: wrap;
-  margin: 0.5rem;
+  margin: .4rem 2rem;
 `;
 
 export const ListItems = styled.li`
