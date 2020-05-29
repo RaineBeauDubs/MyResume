@@ -21,7 +21,7 @@ export const ResSectionBottom = styled.div`
 `;
 
 export const Sec = styled.div`
-  margin: 1.5rem;
+  margin: 1rem;
 `;
 
 export const Title = styled.h2`
