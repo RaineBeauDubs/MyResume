@@ -21,12 +21,17 @@ export const ResSectionBottom = styled.div`
 `;
 
 export const Sec = styled.div`
-  margin: 1.5rem;
+  margin: 1rem;
 `;
 
 export const Title = styled.h2`
   font-weight: bold;
   font-size: 2rem;
+  color: grey;
+  margin-bottom: 0.17rem
+`;
+
+export const Link = styled.a`
   color: grey;
 `;
 
