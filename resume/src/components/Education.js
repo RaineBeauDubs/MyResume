@@ -21,7 +21,7 @@ const Education = () => {
         <Sec>
           <Title>Lambda School</Title>
           <InfDtAlign>
-          <Info>Full-Stack Web Student</Info>
+          <Info>Full-Stack Web Student | Remote</Info>
             <Dates>10/2018 - Current</Dates>
           </InfDtAlign>
           <List>

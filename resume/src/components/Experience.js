@@ -22,7 +22,7 @@ const Experience = () => {
         <Sec>
           <Title>Lambda School</Title>
           <InfDtAlign>
-            <Info>Computer Science Section Lead</Info>
+            <Info>Computer Science Section Lead | Remote</Info>
             <Dates>02/2020 - 05/2020</Dates>
           </InfDtAlign>
           <List>
@@ -34,7 +34,7 @@ const Experience = () => {
         </Sec>
         <Sec>
           <InfDtAlign>
-            <Info>Computer Science Team Lead</Info>
+            <Info>Computer Science Team Lead | Remote</Info>
             <Dates>10/2019 - 02/2020</Dates>
           </InfDtAlign>
           <List>
@@ -46,7 +46,7 @@ const Experience = () => {
         </Sec>
         <Sec>
           <InfDtAlign>
-            <Info>Full-Stack Web Team Lead</Info>
+            <Info>Full-Stack Web Team Lead | Remote</Info>
             <Dates>02/2019 - 05/2019</Dates>
           </InfDtAlign>
           <List>
@@ -60,7 +60,7 @@ const Experience = () => {
         <Sec>
           <Title>Rainy Day Resale</Title>
           <InfDtAlign>
-            <Info>Manager | Co-Owner</Info>
+            <Info>Manager, Co-Owner | La Grange, KY</Info>
             <Dates>01/2014 - 10/2018</Dates>
           </InfDtAlign>
           <List>
