@@ -28,6 +28,11 @@ export const Title = styled.h2`
   font-weight: bold;
   font-size: 2rem;
   color: grey;
+  margin-bottom: 0.17rem
+`;
+
+export const Link = styled.a`
+  color: grey;
 `;
 
 export const InfDtAlign = styled.div`
