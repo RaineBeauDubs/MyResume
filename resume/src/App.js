@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Skills from './components/Skills';
-import SkillsAlt from './components/SkillsAlt';
+// import SkillsAlt from './components/SkillsAlt';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Education from './components/Education';
@@ -23,10 +23,10 @@ function App() {
     <Container className="App">
       <div>
         <Header />
-        <SkillsAlt />
+        <Skills />
       </div>
       <div>
-        {/* <Projects /> */}
+        <Projects />
         <Experience />
         <Education />
       </div>
