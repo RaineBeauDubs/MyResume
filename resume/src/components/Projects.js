@@ -18,7 +18,7 @@ const Projects = () => {
       <ResSectionTop>Projects:</ResSectionTop>
       <ResSectionBottom>
         <Sec>
-          <Title>Let’s Get Tacos! — <Link href="time4tacos.com">time4tacos.com</Link></Title>
+          <Title>Let’s Get Tacos! — <Link href="https://github.com/labs14-tacos">github.com/labs14-tacos</Link></Title>
           <Info>Firebase | HTML/CSS | React | SQL | PostgreSQL | Node.js | Espress</Info>
           <List>
             <ListItems>Collaborated remotely with a team of 3 web developers over an 8-week sprint to build a fully functional web application that met the demands of a stakeholder</ListItems>
@@ -28,7 +28,7 @@ const Projects = () => {
           </List>
         </Sec>
         <Sec>
-        <Title>Tacocat Escape — <Link href="jolly-perlman-0b534b.netlify.app">jolly-perlman-0b534b.netlify.app</Link></Title>
+        <Title>Tacocat Escape — <Link href="https://github.com/TacoBandits">github.com/TacoBandits</Link></Title>
           <Info>HTML/CSS | React | SQL | PostgreSQL | Python | Django</Info>
           <List>
             <ListItems>Collaborated remotely with a team of 4 web developers over a 4-day period to build a full-stack web application</ListItems>
